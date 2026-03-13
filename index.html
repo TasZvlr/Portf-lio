@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tássio Magno | Portfólio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #FF6A00;
+            --bg-color: #0D0D0D;
+            --card-bg: #1A1A1A;
+            --text-color: #ffffff;
+            --secondary-text: #b3b3b3;
+        }
+
+        body {
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header { text-align: center; margin-bottom: 30px; }
+        h1 { font-size: 2.5rem; color: var(--primary-color); margin-bottom: 10px; }
+        h2 { font-size: 1.5rem; font-weight: 300; color: var(--secondary-text); }
+        h3 { color: var(--primary-color); border-bottom: 1px solid #333; padding-bottom: 10px; margin-top: 40px; }
+
+        hr { border: 0; height: 1px; background: var(--primary-color); margin: 20px 0; opacity: 0.3; }
+
+        .profile-img-container { text-align: center; margin: 30px 0; }
+        .profile-img {
+            border-radius: 20px;
+            height: 220px;
+            width: auto;
+            border: 2px solid var(--primary-color);
+            object-fit: cover;
+        }
+
+        .content-section { margin-bottom: 30px; }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 4px solid var(--primary-color);
+        }
+        .tag { font-size: 12px; background: #333; padding: 2px 8px; border-radius: 4px; margin-right: 5px; }
+
+        .social-section { text-align: center; margin-top: 20px; padding-bottom: 60px; }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 45px;
+            margin-top: 25px;
+        }
+        .social-links a {
+            color: #ffffff;
+            font-size: 40px;
+            text-decoration: none;
+            transition: 0.3s;
+            opacity: 0.8;
+        }
+        .social-links a:hover { color: var(--primary-color); transform: translateY(-5px); opacity: 1; }
+
+        @media (max-width: 600px) { h1 { font-size: 2rem; } }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Tássio Magno</h1>
+            <h2>Sobre mim</h2>
+        </header>
+
+        <section class="content-section">
+            <p>Meu nome é Tássio. Sou estudante do ensino médio e tenho interesse na área de tecnologia e desenvolvimento de sistemas. Gosto de aprender sobre programação e criar projetos que me ajudem a desenvolver minhas habilidades.</p>
+        </section>
+
+        <div class="profile-img-container">
+            <img class="profile-img" alt="Foto de Tássio" src="fotossintese.jpg">
+        </div>
+
+        <hr>
+
+        <section class="content-section">
+            <h3>Objetivo</h3>
+            <p>Meu objetivo ao procurar um emprego é aprender, adquirir experiência profissional e desenvolver novas habilidades, independentemente da área em que eu atuar.</p>
+        </section>
+
+        <section class="content-section">
+            <h3>Habilidades</h3>
+            <ul>
+                <li><strong>Linguagens:</strong> Python, HTML, CSS e lógica de programação. (Aprendendo Java).</li>
+                <li><strong>Soft Skills:</strong> Trabalho em equipe e boa comunicação.</li>
+                <li><strong>Idiomas:</strong> Inglês básico.</li>
+            </ul>
+            <p><strong>Em desenvolvimento:</strong> Design gráfico, animação e edição de vídeo e imagem.</p>
+        </section>
+
+        <section class="content-section">
+            <h3>Projetos</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h4>Automação em Python</h4>
+                    <p>Scripts para automação de tarefas diárias.</p>
+                    <span class="tag">Python</span>
+                </div>
+                <div class="project-card">
+                    <h4>Portfólio Web</h4>
+                    <p>Este site responsivo e moderno.</p>
+                    <span class="tag">HTML</span> <span class="tag">CSS</span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="social-section">
+            <h3>Contate-nos</h3>
+            <p>Me encontre nas redes sociais para conversarmos:</p>
+            <div class="social-links">
+                <a href="https://wa.me/qr/TYEUCCZGNUC4F1" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@wlts.tasz_vlr" target="_blank" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/t4sz.vlr" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
