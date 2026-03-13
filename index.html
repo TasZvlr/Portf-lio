@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tássio Magno | Portfólio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    
+
     <style>
         :root {
             --primary-color: #FF6A00;
@@ -61,7 +61,7 @@
         }
         .tag { font-size: 12px; background: #333; padding: 2px 8px; border-radius: 4px; margin-right: 5px; }
 
-        .social-section { text-align: center; margin-top: 20px; padding-bottom: 60px; }
+        .social-section { text-align: center; margin-top: 20px; }
         .social-links {
             display: flex;
             justify-content: center;
@@ -76,6 +76,22 @@
             opacity: 0.8;
         }
         .social-links a:hover { color: var(--primary-color); transform: translateY(-5px); opacity: 1; }
+
+        /* Estilo do Rodapé */
+        .main-footer {
+            text-align: center;
+            padding: 40px 0 20px 0;
+            color: var(--secondary-text);
+            font-size: 0.9rem;
+        }
+        .main-footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .main-footer a:hover {
+            text-decoration: underline;
+        }
 
         @media (max-width: 600px) { h1 { font-size: 2rem; } }
     </style>
@@ -129,14 +145,23 @@
             </div>
         </section>
 
-        <footer class="social-section">
+        <section class="social-section">
             <h3>Contate-nos</h3>
             <p>Me encontre nas redes sociais para conversarmos:</p>
             <div class="social-links">
+                <a href="https://github.com/TasZvlr" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
                 <a href="https://wa.me/qr/TYEUCCZGNUC4F1" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                 <a href="https://www.tiktok.com/@wlts.tasz_vlr" target="_blank" title="TikTok"><i class="fa-brands fa-tiktok"></i></a>
                 <a href="https://www.instagram.com/t4sz.vlr" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
             </div>
+        </section>
+
+        <footer class="main-footer">
+            <hr>
+            <p>&copy; 2024 Tássio Magno. Todos os direitos reservados.</p>
+            <p>Desenvolvido com foco em Tecnologia e Design por 
+               <a href="mailto:tassiorattes@gmail.com">tassiorattes@gmail.com</a>
+            </p>
         </footer>
     </div>
 
